@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EA9E4CE2C8A3EEC00075795 /* Quick Taps Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2EA9E4CD2C8A3EEC00075795 /* Quick Taps Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2EA9E4D32C8A3EEC00075795 /* Quick_TapsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9E4D22C8A3EEC00075795 /* Quick_TapsApp.swift */; };
+		2EA9E4D72C8A3EEC00075795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA9E4D62C8A3EEC00075795 /* Assets.xcassets */; };
+		2EA9E4DA2C8A3EEC00075795 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA9E4D92C8A3EEC00075795 /* Preview Assets.xcassets */; };
+		2EA9E4E62C8A3F9000075795 /* QuickNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9E4E52C8A3F9000075795 /* QuickNotesView.swift */; };
+		2EA9E4E82C8A3F9900075795 /* AudioHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9E4E72C8A3F9900075795 /* AudioHandling.swift */; };
+		2EA9E4EB2C8A400300075795 /* QuickFlashlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9E4EA2C8A400300075795 /* QuickFlashlightView.swift */; };
+		2EA9E4ED2C8A486C00075795 /* LightPulseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9E4EC2C8A486C00075795 /* LightPulseAnimation.swift */; };
+		2EA9E4EF2C8A4A7300075795 /* ExpandLightAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9E4EE2C8A4A7300075795 /* ExpandLightAnimation.swift */; };
+		2EA9E4F12C8A59C700075795 /* CollapseLightAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9E4F02C8A59C700075795 /* CollapseLightAnimation.swift */; };
+		2EA9E4F42C8A5DF400075795 /* QuickTapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA9E4F32C8A5DF400075795 /* QuickTapsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EA9E4CF2C8A3EEC00075795 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EA9E4C12C8A3EEB00075795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EA9E4CC2C8A3EEC00075795;
+			remoteInfo = "Quick Taps Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2EA9E4E02C8A3EEC00075795 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2EA9E4CE2C8A3EEC00075795 /* Quick Taps Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2EA9E4C72C8A3EEC00075795 /* Quick Taps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick Taps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA9E4CD2C8A3EEC00075795 /* Quick Taps Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick Taps Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA9E4D22C8A3EEC00075795 /* Quick_TapsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_TapsApp.swift; sourceTree = "<group>"; };
+		2EA9E4D62C8A3EEC00075795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EA9E4D92C8A3EEC00075795 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2EA9E4E52C8A3F9000075795 /* QuickNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickNotesView.swift; sourceTree = "<group>"; };
+		2EA9E4E72C8A3F9900075795 /* AudioHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioHandling.swift; sourceTree = "<group>"; };
+		2EA9E4EA2C8A400300075795 /* QuickFlashlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickFlashlightView.swift; sourceTree = "<group>"; };
+		2EA9E4EC2C8A486C00075795 /* LightPulseAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightPulseAnimation.swift; sourceTree = "<group>"; };
+		2EA9E4EE2C8A4A7300075795 /* ExpandLightAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandLightAnimation.swift; sourceTree = "<group>"; };
+		2EA9E4F02C8A59C700075795 /* CollapseLightAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapseLightAnimation.swift; sourceTree = "<group>"; };
+		2EA9E4F32C8A5DF400075795 /* QuickTapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickTapsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EA9E4CA2C8A3EEC00075795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EA9E4C02C8A3EEB00075795 = {
+			isa = PBXGroup;
+			children = (
+				2EA9E4D12C8A3EEC00075795 /* Quick Taps Watch App */,
+				2EA9E4C82C8A3EEC00075795 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EA9E4C82C8A3EEC00075795 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EA9E4C72C8A3EEC00075795 /* Quick Taps.app */,
+				2EA9E4CD2C8A3EEC00075795 /* Quick Taps Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EA9E4D12C8A3EEC00075795 /* Quick Taps Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				2EA9E4D22C8A3EEC00075795 /* Quick_TapsApp.swift */,
+				2EA9E4F22C8A5DE000075795 /* Quick Taps */,
+				2EA9E4E42C8A3F7C00075795 /* Quick Notes */,
+				2EA9E4E92C8A3FE300075795 /* Quick Flashlight */,
+				2EA9E4D62C8A3EEC00075795 /* Assets.xcassets */,
+				2EA9E4D82C8A3EEC00075795 /* Preview Content */,
+			);
+			path = "Quick Taps Watch App";
+			sourceTree = "<group>";
+		};
+		2EA9E4D82C8A3EEC00075795 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2EA9E4D92C8A3EEC00075795 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2EA9E4E42C8A3F7C00075795 /* Quick Notes */ = {
+			isa = PBXGroup;
+			children = (
+				2EA9E4E52C8A3F9000075795 /* QuickNotesView.swift */,
+				2EA9E4E72C8A3F9900075795 /* AudioHandling.swift */,
+			);
+			path = "Quick Notes";
+			sourceTree = "<group>";
+		};
+		2EA9E4E92C8A3FE300075795 /* Quick Flashlight */ = {
+			isa = PBXGroup;
+			children = (
+				2EA9E4EA2C8A400300075795 /* QuickFlashlightView.swift */,
+				2EA9E4EC2C8A486C00075795 /* LightPulseAnimation.swift */,
+				2EA9E4EE2C8A4A7300075795 /* ExpandLightAnimation.swift */,
+				2EA9E4F02C8A59C700075795 /* CollapseLightAnimation.swift */,
+			);
+			path = "Quick Flashlight";
+			sourceTree = "<group>";
+		};
+		2EA9E4F22C8A5DE000075795 /* Quick Taps */ = {
+			isa = PBXGroup;
+			children = (
+				2EA9E4F32C8A5DF400075795 /* QuickTapsView.swift */,
+			);
+			path = "Quick Taps";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EA9E4C62C8A3EEC00075795 /* Quick Taps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EA9E4E12C8A3EEC00075795 /* Build configuration list for PBXNativeTarget "Quick Taps" */;
+			buildPhases = (
+				2EA9E4C52C8A3EEC00075795 /* Resources */,
+				2EA9E4E02C8A3EEC00075795 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EA9E4D02C8A3EEC00075795 /* PBXTargetDependency */,
+			);
+			name = "Quick Taps";
+			productName = "Quick Taps";
+			productReference = 2EA9E4C72C8A3EEC00075795 /* Quick Taps.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		2EA9E4CC2C8A3EEC00075795 /* Quick Taps Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EA9E4DD2C8A3EEC00075795 /* Build configuration list for PBXNativeTarget "Quick Taps Watch App" */;
+			buildPhases = (
+				2EA9E4C92C8A3EEC00075795 /* Sources */,
+				2EA9E4CA2C8A3EEC00075795 /* Frameworks */,
+				2EA9E4CB2C8A3EEC00075795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quick Taps Watch App";
+			productName = "Quick Taps Watch App";
+			productReference = 2EA9E4CD2C8A3EEC00075795 /* Quick Taps Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EA9E4C12C8A3EEB00075795 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					2EA9E4C62C8A3EEC00075795 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					2EA9E4CC2C8A3EEC00075795 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 2EA9E4C42C8A3EEB00075795 /* Build configuration list for PBXProject "Quick Taps" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EA9E4C02C8A3EEB00075795;
+			productRefGroup = 2EA9E4C82C8A3EEC00075795 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EA9E4C62C8A3EEC00075795 /* Quick Taps */,
+				2EA9E4CC2C8A3EEC00075795 /* Quick Taps Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EA9E4C52C8A3EEC00075795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA9E4CB2C8A3EEC00075795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA9E4DA2C8A3EEC00075795 /* Preview Assets.xcassets in Resources */,
+				2EA9E4D72C8A3EEC00075795 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EA9E4C92C8A3EEC00075795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA9E4E82C8A3F9900075795 /* AudioHandling.swift in Sources */,
+				2EA9E4F12C8A59C700075795 /* CollapseLightAnimation.swift in Sources */,
+				2EA9E4D32C8A3EEC00075795 /* Quick_TapsApp.swift in Sources */,
+				2EA9E4EB2C8A400300075795 /* QuickFlashlightView.swift in Sources */,
+				2EA9E4EF2C8A4A7300075795 /* ExpandLightAnimation.swift in Sources */,
+				2EA9E4E62C8A3F9000075795 /* QuickNotesView.swift in Sources */,
+				2EA9E4F42C8A5DF400075795 /* QuickTapsView.swift in Sources */,
+				2EA9E4ED2C8A486C00075795 /* LightPulseAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EA9E4D02C8A3EEC00075795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EA9E4CC2C8A3EEC00075795 /* Quick Taps Watch App */;
+			targetProxy = 2EA9E4CF2C8A3EEC00075795 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2EA9E4DB2C8A3EEC00075795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2EA9E4DC2C8A3EEC00075795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2EA9E4DE2C8A3EEC00075795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quick Taps Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = EB2GVA2QCU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quick Taps";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.Quick-Taps.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		2EA9E4DF2C8A3EEC00075795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quick Taps Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = EB2GVA2QCU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quick Taps";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.Quick-Taps.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		2EA9E4E22C8A3EEC00075795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EB2GVA2QCU;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quick Taps";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.Quick-Taps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2EA9E4E32C8A3EEC00075795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EB2GVA2QCU;
+				INFOPLIST_KEY_CFBundleDisplayName = "Quick Taps";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NA.Quick-Taps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EA9E4C42C8A3EEB00075795 /* Build configuration list for PBXProject "Quick Taps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA9E4DB2C8A3EEC00075795 /* Debug */,
+				2EA9E4DC2C8A3EEC00075795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EA9E4DD2C8A3EEC00075795 /* Build configuration list for PBXNativeTarget "Quick Taps Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA9E4DE2C8A3EEC00075795 /* Debug */,
+				2EA9E4DF2C8A3EEC00075795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EA9E4E12C8A3EEC00075795 /* Build configuration list for PBXNativeTarget "Quick Taps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA9E4E22C8A3EEC00075795 /* Debug */,
+				2EA9E4E32C8A3EEC00075795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EA9E4C12C8A3EEB00075795 /* Project object */;
+}
